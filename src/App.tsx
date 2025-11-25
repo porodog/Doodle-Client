@@ -54,7 +54,7 @@ function App() {
             <span style={{ color: "#111" }}>Doodle Party</span>
           </h1>
           <div style={{ marginBottom: "10px" }}>
-            <label style={{ fontSize: "13px" }}>닉네임</label>
+            <label style={{ fontSize: "13px", color: "#000" }}>닉네임</label>
             <input
               style={{
                 width: "100%",
@@ -69,7 +69,7 @@ function App() {
             />
           </div>
           <div style={{ marginBottom: "14px" }}>
-            <label style={{ fontSize: "13px" }}>방 코드 (비워두면 자동 생성)</label>
+            <label style={{ fontSize: "13px", color: "#000" }}>방 코드 (비워두면 자동 생성)</label>
             <input
               style={{
                 width: "100%",
