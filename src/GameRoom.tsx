@@ -417,7 +417,8 @@ export default function GameRoom({ nickname, roomId }: Props) {
                   padding: "8px 14px",
                   borderRadius: "999px",
                   border: "1px solid #ddd",
-                  background: "#fff",
+                  background:
+                    "linear-gradient(135deg, #ffb3d1 0%, #ffc6ff 50%, #b5e8c3 100%)",
                   fontWeight: 500,
                   fontSize: 13,
                   cursor: "pointer",
@@ -432,3 +433,4 @@ export default function GameRoom({ nickname, roomId }: Props) {
     </div>
   );
 }
+
